@@ -1,0 +1,33 @@
+body {
+	background-image: url("images/fondo.png");
+	background-size: cover;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	font-family: "Trebuchet MS", Segoe, "Segoe UI", "DejaVu Sans", Verdana, "sans-serif";
+	margin-top: 400px;
+}
+
+body:hover {
+	background-image: url("images/fondo-hover.png");
+	position: absolute;
+	transition: all 1s linear;
+	font-size: 45px;
+	color: white;
+}
+
+body img {
+	width: 100px;
+	text-align: center;
+}
+
+body a {
+	text-decoration: none;
+	color: black;
+}
+
+body a:hover {
+	color: white;
+	transition: all 0,9s linear;
+}

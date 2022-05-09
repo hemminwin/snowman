@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding-top: 5rem;
+}
+
+/* ENCABEZADO Y NAVEGADOR */
+
+.menu {
+      display: none;  
+}
+.cabecera {
+    background: rgb(244, 244, 244);
+    text-emphasis-color: rgb(160, 160, 160);
+    color: rgb(39, 39, 39);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    position: fixed; /*para que se quede fija*/
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.cabecera ul {
+    margin-top: 0;
+    padding: 0;
+    float: right;
+}
+    .cabecera ul li {
+    display: inline-block;
+    padding: 1rem;
+	margin-top: 30px;
+    }
+        .cabecera ul li a {
+            display: block;
+            padding: 0.5rem;
+            color: rgb(98, 98, 98);
+            list-style: none;
+            text-decoration: none;
+            /* para que aparezca poco a poco */
+            transition: all 0.3s linear;
+        }
+            .cabecera ul li a:hover {
+                background-color: rgb(91, 91, 91);
+                color: aliceblue;
+                border-radius: 10px;
+            }
+.logo_cabecera {
+    width: 200px;
+}
+
+/* DE AQUÍ HACIA ABAJO VA LO PRINCIPAL*/
+
+.principal {
+    align-items: center;
+    text-align: justify;
+    margin: 5%;
+	width: 55%;
+}
+
+.foto {
+	float: right;
+	margin: 6%;
+	min-height: 500px;
+}
+
+aside{
+	align-items: center;
+}
+aside pre {
+	width: 500px;
+}
+aside figcaption {
+	margin: 50px;
+	width: 500px;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    margin: 0;
+    background-color: rgb(244, 244, 244);
+    padding: 3%;
+}
+footer a {
+	margin: 20px;
+}

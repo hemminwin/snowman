@@ -61,6 +61,12 @@ body {
 	margin-left: 12%;
 	width: 55%;
 }
+
+.takizawa {
+	width: 50%;
+	align-items: center;
+	margin-left: 25%;
+}
 .titulo {
 	font-family: "Didot";
 }
